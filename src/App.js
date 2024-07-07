@@ -16,7 +16,7 @@ import Af from './pages/others/af';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/address" element={<Address />}/>

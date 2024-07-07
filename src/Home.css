@@ -1,0 +1,529 @@
+.body {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  position: relative;
+  left: 40px;
+  width: 50%;
+  height: 100%;
+}
+
+.headText {
+  font-size: 5.5vw;
+  margin-top: 20px;
+}
+
+.headText span {
+  color: #12AD2B;
+}
+
+.bodyPara {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.addition {
+  margin-top: 50px;
+  color: gray;
+}
+
+.apply {
+  padding: 20px 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #12AD2B;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #fff;
+  transition: transform 500ms ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.apply:hover {
+  transform: scale(1.05);
+}
+
+.apply:active {
+  transform: scale(0.95);
+}
+
+.video {
+  width: 48%;
+  bottom: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  right: 20px;
+  overflow: hidden;
+}
+
+.ptv {
+  z-index: 10;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid gray;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-60%);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gallery {
+  width: 100vw;
+  height: 100vh;
+  background: url(./images/Video\ Image.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  left: 0;
+}
+
+.info {
+  position: absolute;
+  z-index: 2;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  top: 20%;
+  left: 100px;
+}
+
+.galleryLogo {
+  z-index: 2;
+  width: 20%;
+}
+
+.galHT {
+  z-index: 2;
+  color: #fff;
+  font-size: 3.5vw;
+  letter-spacing: 2px;
+}
+
+.galPara {
+  z-index: 2;
+  color: #fff;
+  color: #dfdfdf;
+}
+
+.galOverLay {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: linear-gradient(90deg, black, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.getToKnow {
+  width: 100vw;
+  height: auto;
+  background-color: #12AD2B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.illustration {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.illI {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.getToKnowText {
+  width: 55%;
+  height: 100%;
+  position: relative;
+  right: 40px;
+  color: #fff;
+}
+
+.gtktHead {
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+
+.gtktGet {
+  margin-bottom: 20px;
+}
+
+.gtktBox {
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  margin-top: 100px;
+  position: relative;
+  bottom: 50px;
+}
+
+.gtktbtN {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2vw;
+  margin-top: 5px;
+}
+
+.gtktbtH {
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.seperator {
+  width: 1px;
+  height: 50px;
+  background-color: #fff!important;
+}
+
+.reviews {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rt {
+  color: #12AD2B;
+  margin-top: 50px;
+  letter-spacing: 1.5px;
+}
+
+.rH {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.rSubText {
+  margin-bottom: 30px;
+}
+
+.rNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  position: relative;
+  left: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.RTB {
+  padding: 5px 10px;
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #cacaca;
+  cursor: pointer;
+}
+
+.rActive {
+  background-color: rgba(18, 173, 43, 0.2);
+  border: 1px solid #12AD2B;
+  color: #12AD2B;
+}
+
+.WRO, .WRO2 {
+  padding: 15px 30px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #12AD2B;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #fff;
+  transition: transform 500ms ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  position: relative;
+  right: 20px;
+}
+
+.WRO:hover, .WRO2:hover {
+  transform: scale(1.05);
+}
+
+.WRO:active, .WRO2:active {
+  transform: scale(0.95);
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  background-color: #12AD2B;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  overflow-y: hidden;
+}
+
+.FH {
+  color: #fff;
+  font-size: 20px;
+}
+
+.naF {
+  width: 10vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 150px;
+  position: relative;
+  bottom: 75px;
+}
+
+.f1 {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.f2 {
+  width: 55%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.FNB {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+}
+
+.programs {
+  width: 100vw;
+  height: auto;
+  background-color: #12AD2B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+  color: #fff;
+}
+
+.pSubHead {
+  margin-top: 100px;
+}
+
+.pCards {
+  width: 100%;
+  display: flex;
+  margin-top: 202px;
+  gap: 50px;
+  position: relative;
+  bottom: 100px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.pCards::-webkit-scrollbar {
+  display: none;
+}
+
+.rRow1,.rRow2 {
+  width: 100%;
+  height: 250px;
+  overflow-x: scroll;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 20px;
+  margin-top: 20px;
+  white-space: nowarp;
+  margin-top: 50px;
+  overflow-y: hidden;
+}
+
+.rRow2 {
+  margin-top: 300px;
+  position: relative;
+  bottom: 250px;
+}
+
+.WRO2 {
+  position: relative;
+  bottom: 200px;
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .video {
+    width: 45%;
+  }
+
+  .getToKnow {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .illustration {
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  .illI {
+    width: 50vw;
+  }
+
+  .getToKnowText {
+    width: 90vw;
+    position: relative;
+    left: 0px;
+  }
+
+  .gtktbtN {
+    font-size: 5vw;
+  }
+
+  .gtktbtH {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .body {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .info {
+    left: 10%;
+  }
+
+  .text {
+    width: 100%;
+    position: relative;
+    left: 50px;
+  }
+
+  .headText, .galHT {
+    font-size: 8vw;
+  }
+
+  .bodyPara {
+    font-size: 5vw;
+  }
+
+  .addition {
+    margin-top: 20px;
+  }
+
+  .video {
+    width: 90vw;
+    position: relative;
+    right: 0;
+  }
+
+  .gtkLogo {
+    display: none;
+  }
+
+  .illI {
+    width: 90vw;
+  }
+
+  .text {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .f1, .f2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .WRO {
+    display: none;
+  }
+
+  .WRO2 {
+    display: block;
+    transform: translateX(10%);
+  }
+
+  .rNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .f1, .f2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .naF {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rH {
+    font-size: 11vw;
+  }
+}

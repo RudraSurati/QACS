@@ -1,0 +1,30 @@
+.themeDiv {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.theme {
+    width: 100vw;
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.themeImg {
+    height: 50vh;
+    width: 40vw;
+    border-radius: 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    position: relative;
+    bottom: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+    .themeImg {
+        width: 90vw;
+    }
+}

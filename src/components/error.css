@@ -1,0 +1,83 @@
+.error {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.ghost {
+    width: 40%;
+}
+
+.errorHeading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #12AD2B;
+    font-size: 2.5vw;
+}
+
+.errorPara {
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 1.2vw;
+}
+
+.errorButton {
+    border: 1px solid #12AD2B;
+    color: #12AD2B;
+    outline: none;
+    padding: 10px 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.errorButton:hover {
+    background-color: #12AD2B;
+    color: #fff;
+}
+
+@media only screen and (max-width: 880px) {
+    .ghost {
+        width: 60vw;
+    }
+
+    .errorHeading {
+        font-size: 3vw;
+    }
+
+    .errorPara {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ghost {
+        width: 80vw;
+    }
+
+    .errorHeading {
+        font-size: 4vw;
+    }
+
+    .errorPara {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ghost {
+        width: 80vw;
+    }
+
+    .errorHeading {
+        font-size: 4vw;
+    }
+
+    .errorPara {
+        font-size: 2vw;
+    }
+}

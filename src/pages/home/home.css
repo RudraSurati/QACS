@@ -1,0 +1,88 @@
+.congHead {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #868686;
+}
+
+.chdImg {
+    width: 24vw;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    z-index: -1;
+}
+
+.chdes {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    bottom: 25px;
+}
+
+.chtext {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+
+.cht1 {
+    width: 48%;
+}
+
+.cht2 {
+    width: 48%;
+}
+
+.big {
+    font-size: 50px;
+}
+
+.chh1 {
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 900px) {
+    .chh1 {
+        font-size: 18px;
+    }
+
+    .chdes {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .chdImg {
+        width: 90vw;
+        position: relative;
+    }
+
+    .chtext {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: 10px;
+    }
+
+    .cht1, .cht2 {
+        width: 80vw;
+    }
+
+    .cht2 {
+        margin-right: 0!important;
+    }
+}

@@ -1,0 +1,83 @@
+.vmHead {
+    width: 100vw;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.vm {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.vision, .mission {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.vision {
+    background-image: url(../../images/vision.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.mission {
+    background-image: url(../../images/mission.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.vHead, .mHead, .vPara, .mPara {
+    margin-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.vHead, .mHead {
+    margin-top: 20px;
+}
+
+.vmOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 1115px) {
+    .vision, .mission {
+        width: 45vw;
+        height: 45vw;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    .vm {
+        flex-direction: column;
+    }
+
+    .vmHead {
+        font-size: 25px;
+    }
+
+    .vision, .mission {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .mission {
+        color: #fff;
+        margin-top: 100px;
+        position: relative;
+        bottom: 50px;
+    }
+}

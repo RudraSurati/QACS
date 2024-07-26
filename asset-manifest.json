@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/QACS/static/css/main.3b03c503.css",
-    "main.js": "/QACS/static/js/main.86b57505.js",
+    "main.css": "/QACS/static/css/main.bad0468c.css",
+    "main.js": "/QACS/static/js/main.621be787.js",
     "static/js/453.1e384c7c.chunk.js": "/QACS/static/js/453.1e384c7c.chunk.js",
     "static/media/Video.mkv": "/QACS/static/media/Video.842b2944bc9943b397ba.mkv",
     "static/media/Sacrifice.png": "/QACS/static/media/Sacrifice.4b699a8dfcf0d06b96aa.png",
@@ -23,12 +23,12 @@
     "static/media/Manager.jpeg": "/QACS/static/media/Manager.b27b67bb5a642cfb8505.jpeg",
     "static/media/Mother Veronica.jpeg": "/QACS/static/media/Mother Veronica.13bb670b017008e291b2.jpeg",
     "index.html": "/QACS/index.html",
-    "main.3b03c503.css.map": "/QACS/static/css/main.3b03c503.css.map",
-    "main.86b57505.js.map": "/QACS/static/js/main.86b57505.js.map",
+    "main.bad0468c.css.map": "/QACS/static/css/main.bad0468c.css.map",
+    "main.621be787.js.map": "/QACS/static/js/main.621be787.js.map",
     "453.1e384c7c.chunk.js.map": "/QACS/static/js/453.1e384c7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b03c503.css",
-    "static/js/main.86b57505.js"
+    "static/css/main.bad0468c.css",
+    "static/js/main.621be787.js"
   ]
 }
